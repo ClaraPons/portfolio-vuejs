@@ -1,7 +1,12 @@
-<template>
-  <HelloWorld />
-</template>
-
 <script setup>
   import HelloWorld from '@/components/HelloWorld.vue'
+  import HelloWorld2 from '@/components/HelloWorld2.vue'
 </script>
+
+<template>
+  <div>
+    <HelloWorld />
+    <HelloWorld2 />
+  </div>
+</template>
+
