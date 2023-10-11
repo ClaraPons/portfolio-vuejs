@@ -6,13 +6,13 @@
 
 <template>
  
- <img src="../img/Untitled.png" class="">
+ <img src="../img/Untitled.png" class="imgHeader">
 
 </template>
 
 
 <style>
-img {
+.imgHeader {
   --_g: 10% /45% 45% no-repeat linear-gradient(#000 0 0);
   --m:
     left   var(--_i,0%) top    var(--_g),
@@ -26,7 +26,7 @@ img {
   cursor: pointer;
   height: 500px;
 }
-img:hover {
+.imgHeader:hover {
   --_i: 10%;
   filter: grayscale(0);
 }

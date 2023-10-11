@@ -1,11 +1,9 @@
+
+<script setup>
+  //
+</script>
 <template>
-  <!-- <v-app-bar flat class="bg-teal">
-    <v-app-bar-title class="text-h4">
-      <v-icon icon="mdi-account-circle" size="x-small"/>
-      Clara .
-    </v-app-bar-title>
-  </v-app-bar> -->
-  <v-app-bar fixed elevation="0" class="py-1 pr-3">
+  <v-app-bar fixed elevation="0" class="py-1 pr-3" color="transparent" id="test">
         <v-app-bar-title class="text-h4 text-teal">
           Clara .
         </v-app-bar-title>
@@ -90,6 +88,9 @@
     </v-app-bar>
 </template>
 
-<script setup>
-  //
-</script>
+<style>
+#test{
+  backdrop-filter: blur(200px);
+}
+
+</style>

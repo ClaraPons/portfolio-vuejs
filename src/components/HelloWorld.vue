@@ -2,6 +2,10 @@
   //
   import TestBis from '@/components/TestBis.vue'
   import ToolbarRs from '@/components/ToolbarRs.vue'
+  import CarrouselCard from '@/components/CarrouselCard.vue'
+  import SkillsCard from '@/components/SkillsCard.vue'
+  import ContactCard from '@/components/ContactCard.vue'
+  import FooterCard from '@/components/FooterCard.vue'
 
 </script>
 
@@ -72,7 +76,8 @@
           </v-btn>
         </v-col>
       </v-row> -->
-      <v-responsive class="align-center  fill-height"> 
+      <div>
+      <v-responsive class="align-center  fill-height mb-5"> 
 
       <v-row class="align-center my-10">
         <v-col cols="2">
@@ -80,11 +85,13 @@
         </v-col>
 
         <v-col cols="4" >
-          <a class="link link--kukuri"  data-letters="Hello">Hello</a>
-          <p  class="text-h6 pt-5 text-grey-lighten-1 font-weight-light">Je m'appelle Clara PONS et je suis développeuse web Junior en recherche d'un contrat</p>
+          <!-- <a class="link link--kukuri"  data-letters="Hello">Hello</a> -->
+          <h2 data-text="Bonjour">Bonjour</h2>
+          
+          <p  class="text-h6 pt-5 text-grey-lighten-1 font-weight-light">Je m'appelle Clara PONS, je suis développeuse web Fullstack Junior spécialisée en Javascript</p>
           <v-btn
             color="teal-lighten-3"
-            class="my-6 text-white"
+            class="my-6 mt-10 text-white"
             variant="flat"
             :ripple="false"
           >
@@ -99,10 +106,61 @@
         <a href="#section06"><span></span></a>
       </section>
     </v-responsive>
+    <CarrouselCard/>
+    <SkillsCard/>
+    <ContactCard/>
+    <FooterCard/>
+  </div>
   <!-- </v-container>  -->
 </template>
 
 <style>
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+
+h2 {
+	color: rgba(0, 128, 128, 0.128);
+	font-size: 5vw;
+	position: relative;
+	text-transform: uppercase;
+	/* -webkit-text-stroke: 0.3vw #f7f7fe; */
+}
+
+h2::before {
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 80%;
+	color: teal;
+	overflow: hidden;
+	position: absolute;
+	content: attr(data-text);
+	border-right: 2px solid rgba(0, 128, 128, 0.57);
+	-webkit-text-stroke: 0vw #f7f7fe;
+	animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+	0%,
+	10%,
+	100% {
+		width: 0;
+	}
+
+	70%,
+	90% {
+		width: 80%;
+	}
+}
+
 
 #section05 a {
   padding-top: 70px;
@@ -150,7 +208,7 @@
 }
 
 
-
+/* 
 .link {
 	outline: none;
 	text-decoration: none;
@@ -159,6 +217,7 @@
 	line-height: 1;
 	color: #E0F2F1;
 	display: inline-block;
+  padding-top: 10px;
 }
 .link--kukuri {
 	text-transform: uppercase;
@@ -166,6 +225,7 @@
 	overflow: hidden;
 	line-height: 0.75;
 	color: #E0F2F1;
+
 }
 
 .link--kukuri:hover {
@@ -184,6 +244,7 @@
 	transform: translate3d(-100%,0,0);
 	transition: transform 0.4s;
 	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+  
 }
 
 .link--kukuri:hover::after {
@@ -203,6 +264,6 @@
 
 .link--kukuri:hover::before {
 	width: 100%;
-}
+} */
 
 </style>

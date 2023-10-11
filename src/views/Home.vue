@@ -6,7 +6,7 @@
 <template>
   <div>
     <HelloWorld />
-    <HelloWorld2 />
+    <!-- <HelloWorld2 /> -->
   </div>
 </template>
 
