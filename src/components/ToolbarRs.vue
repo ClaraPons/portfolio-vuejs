@@ -1,26 +1,39 @@
 <script setup>
   //
 
-      const icons= [
-        'mdi-email',
-        'mdi-github',
-        'mdi-linkedin',
-        'mdi-instagram',
-      ]
-   
+  const icons= [
+  {
+    icon:"mdi-email",
+    link: "mailto:claragapons@gmail.com",
+  },
+  {
+    icon:"mdi-github",
+    link: "https://github.com/ClaraPons",
+  },
+  {
+    icon:"mdi-linkedin",
+    link: "https://www.linkedin.com/in/clara-pons-297bb6b3/",
+  },
+  {
+    icon:"mdi-phone",
+    link: "tel:+33624436595",
+  }
+]
+
 </script>
 
 <template>
  
  <v-col class="d-flex flex-column justify-end">
-      <v-btn
-        v-for="icon in icons"
-        :key="icon"
-        class="mx-4"
-        :icon="icon"
-        variant="plain"
-        size="small"
-      ></v-btn>
+      <a v-for="(icon, index) in icons" :key="index" :href="icon.link" target="_blank">
+        <v-btn
+          class="mx-2 "
+          color="grey-darken-1"
+          :icon="icon.icon"
+          variant="plain"
+          size="small"
+        ></v-btn>
+      </a>
  </v-col>
 </template>
 

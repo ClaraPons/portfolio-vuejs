@@ -1,11 +1,19 @@
 <script setup>
   //
-  import TestBis from '@/components/TestBis.vue'
+  import ImgHeader from '@/components/ImgHeader.vue'
   import ToolbarRs from '@/components/ToolbarRs.vue'
   import CarrouselCard from '@/components/CarrouselCard.vue'
   import SkillsCard from '@/components/SkillsCard.vue'
   import ContactCard from '@/components/ContactCard.vue'
   import FooterCard from '@/components/FooterCard.vue'
+  import PresentationCard from '@/components/PresentationCard.vue'
+
+  const scrollToAnchor = () => {
+    const element = document.getElementById('presentation');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
 </script>
 
@@ -77,39 +85,42 @@
         </v-col>
       </v-row> -->
       <div>
-      <v-responsive class="align-center  fill-height mb-5"> 
+      <v-responsive class="align-center fill-height mb-5 responsive"> 
 
-      <v-row class="align-center my-10">
+      <v-row class="align-center my-15">
         <v-col cols="2">
           <ToolbarRs/>
         </v-col>
 
-        <v-col cols="4" >
+        <v-col class="header-left" cols="3" >
           <!-- <a class="link link--kukuri"  data-letters="Hello">Hello</a> -->
           <h2 data-text="Bonjour">Bonjour</h2>
           
-          <p  class="text-h6 pt-5 text-grey-lighten-1 font-weight-light">Je m'appelle Clara PONS, je suis développeuse web Fullstack Junior spécialisée en Javascript</p>
+          <p  class="text-h6 pt-5 text-grey-lighten-1 font-weight-light">Je m'appelle Clara PONS, je suis développeuse Web Fullstack Junior </p>
           <v-btn
             color="teal-lighten-3"
-            class="my-6 mt-10 text-white"
+            class=" mt-10 text-white"
             variant="flat"
             :ripple="false"
+            @click="scrollToAnchor"
           >
             Voir mon profil
           </v-btn>
         </v-col>
-        <v-col cols="6" class="d-flex justify-center">
-          <TestBis/>
-        </v-col>
+          <v-col cols="7" class="d-flex justify-center mb-10">
+            <ImgHeader/>
+          </v-col>
       </v-row>
-      <section id="section05" class="demo">
-        <a href="#section06"><span></span></a>
+      <section id="section05" class="demo" @click="scrollToAnchor"> 
+        <a ><span></span></a>
       </section>
     </v-responsive>
-    <CarrouselCard/>
-    <SkillsCard/>
-    <ContactCard/>
-    <FooterCard/>
+    <PresentationCard  id="presentation"/>
+    <SkillsCard id="skills"/>
+    <CarrouselCard id="projects"/>
+    <ContactCard id="contact"/>
+
+    <FooterCard />
   </div>
   <!-- </v-container>  -->
 </template>
@@ -125,10 +136,14 @@
 	font-family: "Poppins", sans-serif;
 }
 
+p, strong{
+	font-family: "Poppins Thin", sans-serif;
+}
+
 
 h2 {
 	color: rgba(0, 128, 128, 0.128);
-	font-size: 5vw;
+	font-size: 4.85vw;
 	position: relative;
 	text-transform: uppercase;
 	/* -webkit-text-stroke: 0.3vw #f7f7fe; */
@@ -157,17 +172,18 @@ h2::before {
 
 	70%,
 	90% {
-		width: 80%;
+		width: 100%;
 	}
 }
 
 
 #section05 a {
   padding-top: 70px;
+  cursor: pointer;
 }
 #section05 a span {
   position: absolute;
-  top: 88%;
+  top: 84%;
   left: 50%;
   width: 24px;
   height: 24px;
@@ -206,7 +222,6 @@ h2::before {
     opacity: 0;
   }
 }
-
 
 /* 
 .link {

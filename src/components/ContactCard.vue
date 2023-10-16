@@ -5,31 +5,38 @@
 </script>
 
 <template>
-  <div class="sliderBis align-center">
-    <TitleText title="Me contacter" subtitle="Portfolio" class="pt-15 mt-10"/>
+  <div class="align-center pt-10">
+    <TitleText title="Me contacter" subtitle="Portfolio" class="pt-2 pb-5"/>
     <div class="btn-holder mt-15">
       <v-icon icon="mdi-email"  class="bg-icon pa-5 rounded-circle"/>
-      <button class="btn btn-2 hover-slide-right">
-        <span class="align-center">claragapons@gmail.com</span>
-      </button>
-      
+      <a href="mailto:claragapons@gmail.com">
+        <button class="btn btn-2 hover-slide-right" >
+          <span class="align-center">claragapons@gmail.com</span>
+        </button>
+      </a>
     </div>
     <div class="btn-holder ">
-      <button class="btn btn-2 hover-slide-right">
-        <span>06.24.43.65.95</span>
-      </button>
+      <a href="tel:+33624436595">
+        <button class="btn btn-2 hover-slide-right" >
+          <span>06.24.43.65.95</span>
+        </button>
+      </a>
       <v-icon icon="mdi-phone"  class="bg-icon pa-5 rounded-circle"/>
     </div>
     <div class="btn-holder ">
       <v-icon icon="mdi-linkedin"  class="bg-icon pa-5 rounded-circle"/>
-      <button class="btn btn-2 hover-slide-right">
-          <span>https://www.linkedin.com/in/clara-pons-297bb6b3/</span>
-      </button>
+      <a href="https://www.linkedin.com/in/clara-pons-297bb6b3/" target="_blank">   
+        <button class="btn btn-2 hover-slide-right">
+            <span>www.linkedin.com/in/clara-pons/</span>
+        </button>
+      </a>
     </div>
-    <div class="btn-holder ">
-      <button class="btn btn-2 hover-slide-right">
-        <span>https://github.com/ClaraPons</span>
-      </button>
+    <div class="btn-holder pb-15">
+      <a href="https://github.com/ClaraPons" target="_blank">   
+        <button class="btn btn-2 hover-slide-right">
+          <span>https://github.com/ClaraPons</span>
+        </button>
+      </a>
       <v-icon icon="mdi-github"  class="bg-icon pa-5 rounded-circle"/>
     </div>
 </div>
@@ -54,11 +61,7 @@ h1 {
   color: rgb(54, 56, 55);
 } */
 
-.sliderBis {
-  width: 100%;
-  min-height: 610px;
-  background-color: #E0F2F1;
-}
+
 
 :active, :hover, :focus {
   outline: 0!important;

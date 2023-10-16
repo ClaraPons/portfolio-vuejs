@@ -4,7 +4,7 @@
 </script>
 
 <template>
-    <div class="slider d-flex flex-column justify-center">
+    <div class="slider d-flex flex-column justify-center pt-2">
         <TitleText title="Mes Projets" subtitle="Portfolio"/>
         <!-- <h1 class="text-center py-5 text-teal-lighten-3 text-h3">Mes projets</h1> -->
         <input type="radio" name="testimonial" id="t-1" />
@@ -18,111 +18,111 @@
             <label class="item" for="t-1">
                 <div class="textCarrousel">
                         <h5 class="text-white pb-5"> Projet Highcast</h5>
-                        <p class="text-justify pb-5 font-weight-light text-body-2 ">Site réalisé dans le cadre de mon alternance au sein de la startup Highcast. Conception de la maquette au développement.</p>
+                        <p class="text-justify pb-5 font-weight-light  ">Site réalisé dans le cadre de mon alternance au sein de la startup Highcast. Conception de la maquette au développement.</p>
                         <v-row class="pb-5">
                             <v-col >
-                                <v-icon  icon="mdi-vuejs" color="white"  size="large"/>
+                                <v-icon  icon="mdi-vuejs" color="white"  />
                             </v-col>
                             <v-col>
-                                <v-icon  icon="mdi-language-css3" color="white"  size="large"/>
+                                <v-icon  icon="mdi-language-css3" color="white"  />
                             </v-col>
                             <v-col>
-                                <v-icon  icon="mdi-code-json" color="white"  size="large"/>
+                                <v-icon  icon="mdi-code-json" color="white"  />
                             </v-col>
                         </v-row>
-                        <v-btn>Voir</v-btn>
+                        <v-btn size="small" href="https://www.highcast.co" target="_blank">Voir</v-btn>
                     </div>
                     <img src="../img/highcast.png"  />                
             </label>
             <label class="item" for="t-2">
                 <div class="textCarrousel">
                     <h5 class="text-white pb-5"> Projet Trouve Ta Voix</h5>
-                    <p class="text-justify pb-5 font-weight-light text-body-2 ">Application de matching d'informations réalisée pour l'association Trouve Ta voix dans un délai de 3 semaines.</p>
+                    <p class="text-justify pb-5 font-weight-light  ">Application de matching d'informations réalisée pour l'association Trouve Ta voix dans un délai de 3 semaines.</p>
                         <v-row class="pb-5">
                             <v-col >
-                                <v-icon  icon="mdi-react" color="white"  size="large"/>
+                                <v-icon  icon="mdi-react" color="white"  />
                             </v-col>
                             <v-col>
-                                <v-icon  icon="mdi-nodejs" color="white"  size="large"/>
+                                <v-icon  icon="mdi-nodejs" color="white"  />
                             </v-col>
                             <v-col>
-                                <v-icon  icon="mdi-database-search" color="white"  size="large"/>
+                                <v-icon  icon="mdi-database-search" color="white"  />
                             </v-col>
                         </v-row>
-                        <v-btn>Voir</v-btn>
+                        <v-btn size="small" href="https://trouvetavoix.netlify.app/" target="_blank">Voir</v-btn>
                     </div>
                     <img src="../img/trouve-ta-voix.png"  />
                 </label>
             <label class="item" for="t-3">
                 <div class="textCarrousel">
                     <h5 class="text-white pb-5"> Projet Memory</h5>
-                    <p class="text-justify pb-5 font-weight-light text-body-2 ">Le projet Memory est un jeu réalisé en équipe de 3 personnes lors de ma reconversion. Nous devions le réaliser et le présenter en 2 jours.</p>
+                    <p class="text-justify pb-5 font-weight-light  ">Le projet Memory est un jeu réalisé en équipe de 3 personnes lors de ma reconversion. Nous devions le réaliser et le présenter en 2 jours.</p>
                         <v-row class="pb-5">
                             <v-col >
-                                <v-icon  icon="mdi-react" color="white"  size="large"/>
+                                <v-icon  icon="mdi-react" color="white"  />
                             </v-col>
                             <v-col>
-                                <v-icon  icon="mdi-language-css3" color="white"  size="large"/>
+                                <v-icon  icon="mdi-language-css3" color="white"  />
                             </v-col>
                         </v-row>
-                        <v-btn>Voir</v-btn>
+                        <v-btn size="small" href="https://singular-marshmallow-57b4e9.netlify.app/" target="_blank">Voir</v-btn>
                     </div>
                     <img src="../img/memory.png"  />
                 </label>
                 <label class="item" for="t-4">
                     <div class="textCarrousel">
                         <h5 class="text-white pb-5"> Projet Pokemon</h5>
-                        <p class="text-justify pb-5 font-weight-light text-body-2 ">Le projet Pokemon nous a permis à nous inicier à l'utilisation des API. Nous devions resencer la liste des Pokemons existants sur l'API en 2 jours.</p>
+                        <p class="text-justify pb-5 font-weight-light  ">Le projet Pokemon nous a permis à nous inicier à l'utilisation des API. Nous devions resencer la liste des Pokemons existants sur l'API en 2 jours.</p>
                         <v-row class="pb-5">
                             <v-col >
-                                <v-icon  icon="mdi-react" color="white"  size="large"/>
+                                <v-icon  icon="mdi-react" color="white"  />
                             </v-col>
                             <v-col>
-                                <v-icon  icon="mdi-language-css3" color="white"  size="large"/>
+                                <v-icon  icon="mdi-language-css3" color="white"  />
                             </v-col>
                             <v-col>
-                                <v-icon  icon="mdi-api" color="white"  size="large"/>
+                                <v-icon  icon="mdi-api" color="white"  />
                             </v-col>
                         </v-row>
-                        <v-btn>Voir</v-btn>
+                        <v-btn size="small" href="https://tubular-sundae-be2dda.netlify.app/" target="_blank">Voir</v-btn>
                     </div>
                     <img src="../img/pokemon.png"  />
                 </label>
                 <label class="item" for="t-5">
                     <div class="textCarrousel">
                         <h5 class="text-white pb-5"> Projet Moovice</h5>
-                        <p class="text-justify pb-5 font-weight-light text-body-2 ">Dans le projet Moovice, nous devions utiliser l'API de movieDB pour développer un site de rencensement de film. Nous devions réaliser ce projets en 3 jours.</p>
+                        <p class="text-justify pb-5 font-weight-light  ">Dans le projet Moovice, nous devions utiliser l'API de movieDB pour développer un site de rencensement de film. Nous devions réaliser ce projets en 3 jours.</p>
                         <v-row class="pb-5">
                             <v-col >
-                                <v-icon  icon="mdi-react" color="white"  size="large"/>
+                                <v-icon  icon="mdi-react" color="white"  />
                             </v-col>
                             <v-col>
-                                <v-icon  icon="mdi-language-css3" color="white"  size="large"/>
+                                <v-icon  icon="mdi-language-css3" color="white"  />
                             </v-col>
                             <v-col>
-                                <v-icon  icon="mdi-api" color="white"  size="large"/>
+                                <v-icon  icon="mdi-api" color="white"  />
                             </v-col>
                         </v-row>
-                        <v-btn>Voir</v-btn>
+                        <v-btn size="small" href="https://imaginative-cascaron-e4e24e.netlify.app/" target="_blank">Voir</v-btn>
                     </div>
                     <img src="../img/moovice.png"  />              
                 </label>
                 <label class="item" for="t-6">
                     <div class="textCarrousel">
                         <h5 class="text-white pb-5"> Projet Movie List</h5>
-                        <p class="text-justify pb-5 font-weight-light text-body-2 ">Pour ce projet, nous devions simplement utiliser un tableau JSON pour lister un catalogue de film. Nous devions réaliser ce projets en 1 jour.</p>
+                        <p class="text-justify pb-5 font-weight-light  ">Pour ce projet, nous devions simplement utiliser un tableau JSON pour lister un catalogue de film. Nous devions réaliser ce projets en 1 jour.</p>
                         <v-row class="pb-5">
                             <v-col >
-                                <v-icon  icon="mdi-react" color="white"  size="large"/>
+                                <v-icon  icon="mdi-react" color="white"  />
                             </v-col>
                             <v-col>
-                                <v-icon  icon="mdi-language-css3" color="white"  size="large"/>
+                                <v-icon  icon="mdi-language-css3" color="white"  />
                             </v-col>
                             <v-col>
-                                <v-icon  icon="mdi-code-json" color="white"  size="large"/>
+                                <v-icon  icon="mdi-code-json" color="white"  />
                             </v-col>
                         </v-row>
-                        <v-btn>Voir</v-btn>
+                        <v-btn size="small" href="https://dynamic-mochi-82b309.netlify.app/" target="_blank">Voir</v-btn>
                     </div>
                     <img src="../img/movieList.png"  />                
                 </label>
@@ -130,16 +130,16 @@
                     <div >
                         <div class="textCarrousel">
                             <h5 class="text-white pb-5"> Projet Deezer</h5>
-                            <p class="text-justify pb-5 font-weight-light text-body-2 ">Le projet Deezer est l'un des premier projet que j'ai réalisé lors de ma reconversion. Nous devions refaire la homePage de Deezer.</p>
+                            <p class="text-justify pb-5 font-weight-light  ">Le projet Deezer est l'un des premier projet que j'ai réalisé lors de ma reconversion. Nous devions refaire la homePage de Deezer.</p>
                             <v-row class="pb-5">
                                 <v-col >
-                                    <v-icon  icon="mdi-language-html5" color="white"  size="large"/>
+                                    <v-icon  icon="mdi-language-html5" color="white"  />
                                 </v-col>
                                 <v-col>
-                                    <v-icon  icon="mdi-language-css3" color="white"  size="large"/>
+                                    <v-icon  icon="mdi-language-css3" color="white"  />
                                 </v-col>
                             </v-row>
-                            <v-btn>Voir</v-btn>
+                            <v-btn size="small" href="https://clarapons.github.io/deezer-v1/" target="_blank">Voir</v-btn>
                         </div>
                         <img src="../img/deezer.png"  />
                     </div>
@@ -260,6 +260,10 @@
 .textCarrousel{
     display: none;
    
+}
+
+.textCarrousel p {
+  font-size: 14px;
 }
 
 .item:hover .textCarrousel {

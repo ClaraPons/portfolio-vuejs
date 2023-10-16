@@ -2,16 +2,15 @@
   //
   import TitleText from '@/components/TitleText.vue'
   
-
 </script>
 
 <template>
   <v-row class="bloc pt-6">
-    <TitleText title="Mes Compétences" subtitle="Portfolio" class="py-6"/>
-    <v-row class="pb-5 mx-15">
+    <TitleText title="Mes Compétences" subtitle="Portfolio" class="py-10"/>
+    <v-row class="pb-8 mx-15">
       <v-col>
         <div class="eb-progress-bar-wrapper">
-          <div class="eb-progress-bar html" style="--value: 95; --col: #FF5089">
+          <div class="eb-progress-bar html" data-value="95" style="--value: 95; --col: #FF5089">
             <progress id="html" min="0" max="100" value="95"></progress>
           </div>
     
@@ -23,7 +22,7 @@
       
       <v-col>
         <div class="eb-progress-bar-wrapper">
-          <div class="eb-progress-bar py" style="--value: 90; --col: #AD0346">
+          <div class="eb-progress-bar py" data-value="90" style="--value: 90; --col: #AD0346">
             <progress id="py" min="0" max="100" value="90"></progress>
           </div>
     
@@ -34,7 +33,7 @@
       </v-col>
       <v-col>
         <div class="eb-progress-bar-wrapper">
-          <div class="eb-progress-bar py" style="--value: 85; --col: #AD0346">
+          <div class="eb-progress-bar py" data-value="85" style="--value: 85; --col: #AD0346">
             <progress id="py" min="0" max="100" value="85"></progress>
           </div>
     
@@ -45,8 +44,8 @@
       </v-col>
       <v-col>
         <div class="eb-progress-bar-wrapper">
-          <div class="eb-progress-bar js" style="--value: 80; --col: #E8232E">
-            <progress id="js" min="0" max="100" value="75"></progress>
+          <div class="eb-progress-bar js" data-value="80" style="--value: 80; --col: #E8232E">
+            <progress id="js" min="0" max="100" value="80"></progress>
           </div>
     
           <label for="js" class="eb-progress-bar-title">
@@ -56,10 +55,10 @@
       </v-col>
 
     </v-row>
-    <v-row class="mx-15">
+    <v-row class="mx-15 mb-16 pb-8">
       <v-col>
         <div class="eb-progress-bar-wrapper">
-          <div class="eb-progress-bar py" style="--value: 75; --col: #AD0346">
+          <div class="eb-progress-bar py" data-value="75" style="--value: 75; --col: #AD0346">
             <progress id="py" min="0" max="100" value="75"></progress>
           </div>
     
@@ -70,7 +69,7 @@
       </v-col>
       <v-col>
         <div class="eb-progress-bar-wrapper">
-          <div class="eb-progress-bar py" style="--value: 75; --col: #AD0346">
+          <div class="eb-progress-bar py" data-value="75" style="--value: 75; --col: #AD0346">
             <progress id="py" min="0" max="100" value="75"></progress>
           </div>
     
@@ -81,7 +80,7 @@
       </v-col>
       <v-col>
         <div class="eb-progress-bar-wrapper">
-          <div class="eb-progress-bar py" style="--value: 65; --col: #AD0346">
+          <div class="eb-progress-bar py" data-value="65" style="--value: 65; --col: #AD0346">
             <progress id="py" min="0" max="100" value="65"></progress>
           </div>
     
@@ -92,7 +91,7 @@
       </v-col>
       <v-col>
         <div class="eb-progress-bar-wrapper">
-          <div class="eb-progress-bar py" style="--value: 50; --col: #AD0346">
+          <div class="eb-progress-bar py" data-value="50" style="--value: 50; --col: #AD0346">
             <progress id="py" min="0" max="100" value="50"></progress>
           </div>
     
@@ -108,7 +107,7 @@
 <style lang="scss">
 
 .bloc{
-  min-height: 685px;
+  min-height: 700px;
   flex-direction: column;
   justify-content: center;
 }
@@ -129,6 +128,7 @@
 }
 
 .eb-progress-bar {
+  
   --size: 5rem;
   --inner-bg: #ffffff;
   // --inner-bg: #f2f2f2;
@@ -203,6 +203,7 @@ h6 {
   // font-family: "integralcfmedium" !important;
   margin-top: 6px;
   color: #878787;
-}
+} 
+
 
 </style>

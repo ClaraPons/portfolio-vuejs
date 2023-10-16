@@ -26,6 +26,7 @@
   cursor: pointer;
   height: 500px;
 }
+
 .imgHeader:hover {
   --_i: 10%;
   filter: grayscale(0);
