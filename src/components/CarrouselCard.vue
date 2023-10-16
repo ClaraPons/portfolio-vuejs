@@ -37,7 +37,7 @@
             <label class="item" for="t-2">
                 <div class="textCarrousel">
                     <h5 class="text-white pb-5"> Projet Trouve Ta Voix</h5>
-                    <p class="text-justify pb-5 font-weight-light  ">Application de matching d'informations réalisée pour l'association Trouve Ta voix dans un délai de 3 semaines.</p>
+                    <p class="text-justify pb-5 font-weight-light  ">Application de matching d'informations réalisée pour l'association Trouve Ta voix.</p>
                         <v-row class="pb-5">
                             <v-col >
                                 <v-icon  icon="mdi-react" color="white"  />
@@ -56,7 +56,7 @@
             <label class="item" for="t-3">
                 <div class="textCarrousel">
                     <h5 class="text-white pb-5"> Projet Memory</h5>
-                    <p class="text-justify pb-5 font-weight-light  ">Le projet Memory est un jeu réalisé en équipe de 3 personnes lors de ma reconversion. Nous devions le réaliser et le présenter en 2 jours.</p>
+                    <p class="text-justify pb-5 font-weight-light  ">Le projet Memory est un jeu réalisé en 2 jours en équipe lors de ma reconversion.</p>
                         <v-row class="pb-5">
                             <v-col >
                                 <v-icon  icon="mdi-react" color="white"  />
@@ -72,7 +72,7 @@
                 <label class="item" for="t-4">
                     <div class="textCarrousel">
                         <h5 class="text-white pb-5"> Projet Pokemon</h5>
-                        <p class="text-justify pb-5 font-weight-light  ">Le projet Pokemon nous a permis à nous inicier à l'utilisation des API. Nous devions resencer la liste des Pokemons existants sur l'API en 2 jours.</p>
+                        <p class="text-justify pb-5 font-weight-light  ">Le projet Pokemon nous a permis de nous inicier à l'utilisation des API. Nous devions resencer la liste des Pokemons existants sur l'API.</p>
                         <v-row class="pb-5">
                             <v-col >
                                 <v-icon  icon="mdi-react" color="white"  />
@@ -91,7 +91,7 @@
                 <label class="item" for="t-5">
                     <div class="textCarrousel">
                         <h5 class="text-white pb-5"> Projet Moovice</h5>
-                        <p class="text-justify pb-5 font-weight-light  ">Dans le projet Moovice, nous devions utiliser l'API de movieDB pour développer un site de rencensement de film. Nous devions réaliser ce projets en 3 jours.</p>
+                        <p class="text-justify pb-5 font-weight-light  ">Dans le projet Moovice, nous devions utiliser l'API de movieDB pour développer un site de rencensement de film.</p>
                         <v-row class="pb-5">
                             <v-col >
                                 <v-icon  icon="mdi-react" color="white"  />
@@ -110,7 +110,7 @@
                 <label class="item" for="t-6">
                     <div class="textCarrousel">
                         <h5 class="text-white pb-5"> Projet Movie List</h5>
-                        <p class="text-justify pb-5 font-weight-light  ">Pour ce projet, nous devions simplement utiliser un tableau JSON pour lister un catalogue de film. Nous devions réaliser ce projets en 1 jour.</p>
+                        <p class="text-justify pb-5 font-weight-light  ">Pour ce projet, nous devions simplement utiliser un tableau JSON pour lister un catalogue de film.</p>
                         <v-row class="pb-5">
                             <v-col >
                                 <v-icon  icon="mdi-react" color="white"  />
@@ -130,7 +130,7 @@
                     <div >
                         <div class="textCarrousel">
                             <h5 class="text-white pb-5"> Projet Deezer</h5>
-                            <p class="text-justify pb-5 font-weight-light  ">Le projet Deezer est l'un des premier projet que j'ai réalisé lors de ma reconversion. Nous devions refaire la homePage de Deezer.</p>
+                            <p class="text-justify pb-5 font-weight-light  ">Le projet Deezer est l'un des premier projet que j'ai réalisé lors de ma reconversion.</p>
                             <v-row class="pb-5">
                                 <v-col >
                                     <v-icon  icon="mdi-language-html5" color="white"  />
