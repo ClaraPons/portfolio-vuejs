@@ -63,7 +63,7 @@
                             variant="outlined"
                             :ripple="false"
                             class="mt-2"
-                            href="PONS_Clara_CV_Dev_Web 18.08.02.pdf"
+                            href="PONS_Clara_CV_Dev_Web.pdf"
                             download
                           >
                             Télécharger mon CV
@@ -89,7 +89,7 @@
                 color="teal"
                 variant="outlined"
                 class="ml-2"
-                href="PONS_Clara_CV_Dev_Web 18.08.02.pdf"
+                href="PONS_Clara_CV_Dev_Web.pdf"
                 download
               >
                 Télécharger mon cv
