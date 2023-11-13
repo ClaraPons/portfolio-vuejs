@@ -96,7 +96,7 @@
           </div>
     
           <label for="py" class="eb-progress-bar-title">
-            <h6>Python</h6>
+            <h6>Mongo DB</h6>
           </label>
         </div>
       </v-col>
