@@ -1,46 +1,17 @@
 <script setup>
   //
+
   import TitleText from '@/components/TitleText.vue'
+  import FormBloc from '@/components/FormBloc.vue'
+
 
 </script>
 
 <template>
-  <div class="align-center pt-10">
+  <div class="align-center py-10 px-10">
     <TitleText title="Me contacter" subtitle="Portfolio" class="pt-2 pb-5"/>
-    <div class="btn-holder mt-15">
-      <v-icon icon="mdi-email"  class="bg-icon pa-5 rounded-circle"/>
-      <a href="mailto:claragapons@gmail.com">
-        <button class="btn btn-2 hover-slide-right" >
-          <span class="align-center">claragapons@gmail.com</span>
-        </button>
-      </a>
-    </div>
-    <div class="btn-holder ">
-      <a href="tel:+33624436595">
-        <button class="btn btn-2 hover-slide-right" >
-          <span>06.24.43.65.95</span>
-        </button>
-      </a>
-      <v-icon icon="mdi-phone"  class="bg-icon pa-5 rounded-circle"/>
-    </div>
-    <div class="btn-holder ">
-      <v-icon icon="mdi-linkedin"  class="bg-icon pa-5 rounded-circle"/>
-      <a href="https://www.linkedin.com/in/clara-pons-297bb6b3/" target="_blank">   
-        <button class="btn btn-2 hover-slide-right">
-            <span>www.linkedin.com/in/clara-pons/</span>
-        </button>
-      </a>
-    </div>
-    <div class="btn-holder pb-15">
-      <a href="https://github.com/ClaraPons" target="_blank">   
-        <button class="btn btn-2 hover-slide-right">
-          <span>https://github.com/ClaraPons</span>
-        </button>
-      </a>
-      <v-icon icon="mdi-github"  class="bg-icon pa-5 rounded-circle"/>
-    </div>
-</div>
-
+    <FormBloc/>
+  </div>
 </template>
 
 <style>
@@ -62,7 +33,6 @@ h1 {
 } */
 
 
-
 :active, :hover, :focus {
   outline: 0!important;
   outline-offset: 0;
@@ -73,22 +43,22 @@ h1 {
   content: "";
 }
 
-.btn-holder {
+/* .btn-holder-2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 1000px;
-  margin: 10px auto 35px;
-}
+} */
+
+
 .btn {
   position: relative;
   display: inline-block;
-  width: auto; height: auto;
+  /* width: auto; height: auto; */
   background-color: transparent;
   border: none;
   cursor: pointer;
-  margin: 0px 25px;
-  width: 585px;
+  margin: auto;
+  /* width: 585px; */
 }
   .btn span {         
     position: relative;
