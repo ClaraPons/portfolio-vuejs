@@ -1,7 +1,7 @@
 const contact = async ({firstName, lastName, email, message }) => {
     const body = { firstName, lastName, email, message }
     const request = await fetch(
-        `${import.meta.env.VITE_APP_API_URL}`,
+        `https://portfolio-back-w9y9.onrender.com/api/contact`,
         {
             method: "POST",
             headers: {
