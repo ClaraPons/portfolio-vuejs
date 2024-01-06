@@ -9,6 +9,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  define: { 'process.env': {} },
   plugins: [
     vue({
       template: { transformAssetUrls }
@@ -29,7 +30,6 @@ export default defineConfig({
       },
     }),
   ],
-  define: { 'process.env': {} },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
