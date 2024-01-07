@@ -8,9 +8,9 @@
 </script>
 
 <template>
-  <div class="align-center py-10 px-10">
+  <div class="align-center py-10 ">
     <TitleText title="Me contacter" subtitle="Portfolio" class="pt-2 pb-5"/>
-    <FormBloc/>
+    <FormBloc class="px-10"/>
   </div>
 </template>
 
