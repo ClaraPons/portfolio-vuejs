@@ -6,7 +6,7 @@
 
 <template>
  
- <img src="../img/Untitled.png" class="imgHeader">
+ <img src="../../img/Untitled.png" class="imgHeader">
 
 </template>
 

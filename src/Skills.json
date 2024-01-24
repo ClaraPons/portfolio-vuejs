@@ -1,0 +1,34 @@
+[
+    {
+      "title": "Html/CSS",
+      "data": "95" 
+    }, 
+    {
+      "title": "Vue JS",
+      "data": "90" 
+    }, 
+    {
+      "title": "React JS",
+      "data": "85" 
+    }, 
+    {
+      "title": "JavaScript",
+      "data": "80"
+    },
+    {
+      "title": "Node JS",
+      "data": "70" 
+    }, 
+    {
+      "title": "Express JS",
+      "data": "70" 
+    }, 
+    {
+      "title": "SQL",
+      "data": "65" 
+    }, 
+    {
+      "title": "MongoDB",
+      "data": "50"
+    }
+]

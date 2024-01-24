@@ -49,7 +49,6 @@
     <SkillsCard id="skills"/>
     <CarrouselCard id="projects"/>
     <ContactCard id="contact"/>
-
     <FooterCard />
   </div>
 </template>

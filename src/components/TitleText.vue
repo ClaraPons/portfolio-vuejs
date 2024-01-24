@@ -6,12 +6,12 @@ const { title, subtitle } = defineProps(['title', 'subtitle']);
 </script>
 
 <template>
-<div class="module-header mt-10">
-	<h1 class="module-title my-5">{{ title }}
-    <span>{{ subtitle }}</span>
-  </h1> 
-  <div class="module-line mt-12"></div>
-</div>
+    <div class="module-header mt-10">
+        <h1 class="module-title my-5">{{ title }}
+        <span>{{ subtitle }}</span>
+    </h1> 
+    <div class="module-line mt-12"></div>
+    </div>
 </template>
 
 <style lang="scss">

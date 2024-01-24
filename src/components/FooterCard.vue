@@ -22,7 +22,7 @@ const icons= [
 </script>
 
 <template>
-    <v-footer
+  <v-footer
     class=" slider3 bg-teal-lighten-1 text-center d-flex flex-column"
   >
     <div class="py-6" >
@@ -41,15 +41,5 @@ const icons= [
     <h5 class="pt-0 pb-5">
       © {{ new Date().getFullYear() }} — Clara PONS, Tous droits réservés.
     </h5>
-
-
   </v-footer>
-  </template>
-
-<style lang="scss">
-
-.slider3{
-  height: 150px;
-}
-
-</style>
+</template>

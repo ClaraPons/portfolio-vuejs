@@ -1,0 +1,77 @@
+[
+    {
+        "title": "Projet Highcast", 
+        "description": "Site réalisé dans le cadre de mon alternance au sein de la startup Highcast. Conception de la maquette au développement.",
+        "icons": [
+           "vuejs",
+           "language-css3",
+           "code-json"
+        ],
+        "href": "https://www.highcast.co",
+        "img": "highcast.png"
+      }, 
+      {
+        "title": "Projet Trouve Ta Voix", 
+        "description": "Application de matching d'informations réalisée pour l'association Trouve Ta voix.", 
+        "icons": [
+          "react",
+          "nodejs",
+          "database-search"
+       ],
+       "href": "https://trouvetavoix.netlify.app/",
+       "img": "trouve-ta-voix.png" 
+      }, 
+      {
+        "title": "Projet Memory",
+        "description": "Le projet Memory est un jeu réalisé en 2 jours en équipe lors de ma reconversion.",
+        "icons": [
+          "react",
+          "language-css3"
+        ], 
+        "href": "https://singular-marshmallow-57b4e9.netlify.app/",
+        "img": "memory.png"
+      },
+      {
+        "title": "Projet Pokemon",
+        "description": "Le projet Pokemon nous a permis de nous inicier à l'utilisation des API. Nous devions resencer la liste des Pokemons existants sur l'API.",
+        "icons": [
+          "react",
+          "language-css3", 
+          "api"
+        ],
+        "href": "https://tubular-sundae-be2dda.netlify.app/",
+        "img": "pokemon.png" 
+      },
+      {
+        "title": "Projet Moovice", 
+        "description": "Dans le projet Moovice, nous devions utiliser l'API de movieDB pour développer un site de rencensement de film.",
+        "icons": [
+          "react",
+          "language-css3", 
+          "api"
+        ], 
+        "href": "https://imaginative-cascaron-e4e24e.netlify.app/",  
+        "img": "moovice.png" 
+      },
+      {
+        "title": "Projet Movie List", 
+        "description": "Pour ce projet, nous devions simplement utiliser un tableau JSON pour lister un catalogue de film.",
+        "icons": [
+          "react",
+          "language-css3", 
+          "code-json"
+        ], 
+        "href": "https://dynamic-mochi-82b309.netlify.app/", 
+        "img": "movieList.png" 
+      },
+      {
+        "title": "Projet Deezer",
+        "description": "Le projet Deezer est l'un des premier projet que j'ai réalisé lors de ma reconversion.",
+        "icons": [
+          "html5",
+          "language-css3" 
+        ], 
+        "href": "https://clarapons.github.io/deezer-v1/",  
+        "img": "deezer.png"
+      }
+]

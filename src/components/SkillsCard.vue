@@ -1,102 +1,32 @@
 <script setup>
-  //
   import TitleText from '@/components/TitleText.vue'
-  
+  import Skills from '../Skills.json'
+
 </script>
 
 <template>
   <v-row class="bloc pt-6">
     <TitleText title="Mes Compétences" subtitle="Portfolio" class="py-10"/>
     <v-row class="pb-8 mx-15">
-      <v-col>
+      <v-col v-for="(skill, index) in Skills.slice(0, 4)" :key=index >
         <div class="eb-progress-bar-wrapper">
-          <div class="eb-progress-bar html" data-value="95" style="--value: 95; --col: #FF5089">
-            <progress id="html" min="0" max="100" value="95"></progress>
+          <div class="eb-progress-bar" :data-value="skill.data" :style="`--value: ${skill.data}`">
+            <progress  min="0" max="100" :value="skill.data"></progress>
           </div>
-    
-          <label for="html" class="eb-progress-bar-title">
-            <h6>Html/CSS</h6>
+          <label class="eb-progress-bar-title">
+            <h6>{{skill.title}}</h6>
           </label>
         </div>
       </v-col>
-      
-      <v-col>
-        <div class="eb-progress-bar-wrapper">
-          <div class="eb-progress-bar py" data-value="90" style="--value: 90; --col: #AD0346">
-            <progress id="py" min="0" max="100" value="90"></progress>
-          </div>
-    
-          <label for="py" class="eb-progress-bar-title">
-            <h6>Vue JS</h6>
-          </label>
-        </div>
-      </v-col>
-      <v-col>
-        <div class="eb-progress-bar-wrapper">
-          <div class="eb-progress-bar py" data-value="85" style="--value: 85; --col: #AD0346">
-            <progress id="py" min="0" max="100" value="85"></progress>
-          </div>
-    
-          <label for="py" class="eb-progress-bar-title">
-            <h6>React JS</h6>
-          </label>
-        </div>
-      </v-col>
-      <v-col>
-        <div class="eb-progress-bar-wrapper">
-          <div class="eb-progress-bar js" data-value="80" style="--value: 80; --col: #E8232E">
-            <progress id="js" min="0" max="100" value="80"></progress>
-          </div>
-    
-          <label for="js" class="eb-progress-bar-title">
-            <h6>JavaScript</h6>
-          </label>
-        </div>
-      </v-col>
-
     </v-row>
     <v-row class="mx-15 mb-16 pb-8">
-      <v-col>
-        <div class="eb-progress-bar-wrapper">
-          <div class="eb-progress-bar py" data-value="75" style="--value: 75; --col: #AD0346">
-            <progress id="py" min="0" max="100" value="75"></progress>
+      <v-col v-for="(skill, index) in Skills.slice(4, 8)" :key=index >
+        <div  class="eb-progress-bar-wrapper">
+          <div class="eb-progress-bar" :data-value="skill.data" :style="`--value: ${skill.data}`">
+            <progress  min="0" max="100" :value="skill.data"></progress>
           </div>
-    
-          <label for="py" class="eb-progress-bar-title">
-            <h6>Node JS</h6>
-          </label>
-        </div>
-      </v-col>
-      <v-col>
-        <div class="eb-progress-bar-wrapper">
-          <div class="eb-progress-bar py" data-value="75" style="--value: 75; --col: #AD0346">
-            <progress id="py" min="0" max="100" value="75"></progress>
-          </div>
-    
-          <label for="py" class="eb-progress-bar-title">
-            <h6>Express JS</h6>
-          </label>
-        </div>
-      </v-col>
-      <v-col>
-        <div class="eb-progress-bar-wrapper">
-          <div class="eb-progress-bar py" data-value="65" style="--value: 65; --col: #AD0346">
-            <progress id="py" min="0" max="100" value="65"></progress>
-          </div>
-    
-          <label for="py" class="eb-progress-bar-title">
-            <h6>SQL</h6>
-          </label>
-        </div>
-      </v-col>
-      <v-col>
-        <div class="eb-progress-bar-wrapper">
-          <div class="eb-progress-bar py" data-value="50" style="--value: 50; --col: #AD0346">
-            <progress id="py" min="0" max="100" value="50"></progress>
-          </div>
-    
-          <label for="py" class="eb-progress-bar-title">
-            <h6>Mongo DB</h6>
+          <label class="eb-progress-bar-title">
+            <h6>{{skill.title}}</h6>
           </label>
         </div>
       </v-col>

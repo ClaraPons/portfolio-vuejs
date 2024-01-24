@@ -36,8 +36,3 @@
       </a>
  </v-col>
 </template>
-
-
-<style>
-
-</style>
