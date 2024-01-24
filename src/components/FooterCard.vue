@@ -23,7 +23,7 @@ const icons= [
 
 <template>
   <v-footer
-    class=" slider3 bg-teal-lighten-1 text-center d-flex flex-column"
+    class="bg-teal-lighten-1 text-center d-flex flex-column"
   >
     <div class="py-6" >
       <a class="text-decoration-none" v-for="(icon, index) in icons" :key="index" :href="icon.link" target="_blank">
